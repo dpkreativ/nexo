@@ -16,9 +16,10 @@ const LandingPage = () => {
                 your customers
                 <span className="text-indigo-500 animate-pulse">.</span>
               </h1>
-              <p className="text-xl leading-relaxed">
-                Our app is designed to be as simple as possible. Enabling you to
-                reach out to your customers with no hassle.
+              <p className="text-center lg:text-left lg:text-xl leading-relaxed">
+                Manage your customer relationships with ease. Nexo is designed
+                to be intuitive and easy to use, focusing only on the features
+                you need.
               </p>
             </div>
             <div>
