@@ -22,12 +22,12 @@ const Header = () => {
         </div>
         <div className="lg:flex lg:space-x-5 hidden">
           <div>
-            <Button className="bg-indigo-500 text-white hover:bg-indigo-600">
+            <Button className="bg-indigo-500 text-white hover:bg-indigo-600 hover:shadow-md">
               Sign up
             </Button>
           </div>
           <div>
-            <Button className="hover:bg-indigo-100 text-indigo-500">
+            <Button className="bg-white text-indigo-500 hover:shadow-md">
               Sign in
             </Button>
           </div>
