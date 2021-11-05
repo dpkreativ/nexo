@@ -5,7 +5,7 @@ import { HamburgerIcon, Logo } from "./Icons";
 const Header = () => {
   return (
     <header>
-      <nav className="p-5 w-full max-w-6xl mx-auto flex justify-between item-center">
+      <nav className="custom-container flex justify-between item-center">
         <div className="my-auto">
           <Link href="/" passHref>
             <a className="w-20 h-5 block">
