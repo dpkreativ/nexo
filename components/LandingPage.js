@@ -14,14 +14,12 @@ const LandingPage = () => {
           <div className="custom-container grid gap-10 lg:grid-cols-2">
             <div className="my-auto">
               <h1 className="font-bold text-3xl mb-5 text-center lg:text-5xl lg:text-left">
-                Easily <span className="text-indigo-500">connect</span> with
-                your customers
+                <span className="text-indigo-500">Build</span> stronger
+                connections with your friends and customers
                 <span className="text-indigo-500">.</span>
               </h1>
               <p className="text-center lg:text-left lg:text-xl leading-relaxed mb-5">
-                Manage your customer relationships with ease. Nexo is designed
-                to be intuitive and easy to use, focusing only on the features
-                you need.
+                Nexo helps you build your personal and professional network
               </p>
               <div className="flex justify-center lg:justify-start space-x-5">
                 <Link href="/dashboard" passHref>
