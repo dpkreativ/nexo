@@ -1,5 +1,11 @@
 import React from "react";
-import { ContactIcon, DashboardIcon, LogoTweak, ProfileIcon } from "./Icons";
+import {
+  ContactIcon,
+  DashboardIcon,
+  ExitIcon,
+  LogoTweak,
+  ProfileIcon,
+} from "./Icons";
 
 const Sidebar = () => {
   return (
@@ -34,7 +40,11 @@ const Sidebar = () => {
           <div className="mt-2">John D.</div>
         </div>
         <div className="my-5 flex justify-end">
-          <div className="w-12 h-12 rounded-full bg-indigo-900"></div>
+          <div className="w-12 h-12 rounded-full bg-indigo-900">
+            <div className="w-full h-full flex items-center justify-center text-indigo-500">
+              <ExitIcon />
+            </div>
+          </div>
         </div>
       </div>
     </div>
