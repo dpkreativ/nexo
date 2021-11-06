@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 import Button from "./General/Button";
 import Header from "./General/Header";
 import { PlayIcon } from "./General/Icons";
@@ -24,9 +24,13 @@ const LandingPage = () => {
                 you need.
               </p>
               <div className="flex justify-center lg:justify-start space-x-5">
-                <Button className="bg-indigo-500 hover:bg-indigo-600 hover:shadow-md text-white">
-                  Try it out
-                </Button>
+                <Link href="/dashboard" passHref>
+                  <a>
+                    <Button className="bg-indigo-500 hover:bg-indigo-600 hover:shadow-md text-white">
+                      Try it out
+                    </Button>
+                  </a>
+                </Link>
                 <Button className="text-indigo-500 bg-white hover:shadow-md flex items-center space-x-2">
                   <span>Watch Demo</span>
                   <span className="w-5 h-5 animate-pulse">
