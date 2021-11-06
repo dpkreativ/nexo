@@ -1,22 +1,17 @@
 import React from "react";
 import Sidebar from "./General/Sidebar";
 
-const DashboardPage = () => {
+const AllContactsPage = () => {
   return (
     <div className="flex">
       <div className="h-screen p-5 sticky top-0">
         <Sidebar />
       </div>
       <main className="p-5 w-full bg-gray-50">
-        <div>
-          <h1 className="font-bold text-2xl">Hello Divine</h1>
-        </div>
-        <section>
-          <h2>A section</h2>
-        </section>
+        <h1>All Contacts</h1>
       </main>
     </div>
   );
 };
 
-export default DashboardPage;
+export default AllContactsPage;

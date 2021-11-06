@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 import {
   ContactIcon,
   DashboardIcon,
@@ -16,18 +16,22 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="p-5">
-        <div className="px-5 py-2 bg-indigo-400 rounded-xl flex items-center space-x-2">
-          <div className="w-5">
-            <DashboardIcon />
-          </div>
-          <div>Dashboard</div>
-        </div>
-        <div className="px-5 py-2 rounded-xl flex items-center space-x-2">
-          <div className="w-5">
-            <ContactIcon />
-          </div>
-          <div>Contacts</div>
-        </div>
+        <Link href="/dashboard" passHref>
+          <a className="px-5 py-2 bg-indigo-400 rounded-xl flex items-center space-x-2">
+            <div className="w-5">
+              <DashboardIcon />
+            </div>
+            <div>Dashboard</div>
+          </a>
+        </Link>
+        <Link href="/contacts" passHref>
+          <a className="px-5 py-2 rounded-xl flex items-center space-x-2">
+            <div className="w-5">
+              <ContactIcon />
+            </div>
+            <div>Contacts</div>
+          </a>
+        </Link>
         <div className="px-5 py-2 rounded-xl">Notes</div>
       </div>
       <div className="p-5 absolute bg-indigo-400 bottom-0 w-full rounded-3xl grid grid-cols-2">
