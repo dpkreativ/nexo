@@ -8,12 +8,81 @@ const AllContactsPage = () => {
       <div className="h-screen p-5 sticky top-0">
         <Sidebar />
       </div>
-      <main className="p-5 w-full bg-gray-50">
-        <div className="mb-10">
+      <main className="w-full relative">
+        <div className="mb-10 sticky top-0 p-5 bg-white">
           <h1 className="font-bold text-2xl text-indigo-500">2 Contacts</h1>
         </div>
-        <div>
+        <div className="p-5">
           <div className="grid lg:grid-cols-6 gap-6">
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
+            <div>
+              <ContactCard />
+            </div>
             <div>
               <ContactCard />
             </div>
