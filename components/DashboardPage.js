@@ -1,12 +1,16 @@
 import React from "react";
-import Header from "./General/Header";
+import Sidebar from "./General/Sidebar";
 
 const DashboardPage = () => {
   return (
-    <>
-      <Header />
-      <main>Hello Divine, this is the dashboard</main>
-    </>
+    <div className="flex">
+      <div className="h-screen p-5 sticky top-0">
+        <Sidebar />
+      </div>
+      <main className="custom-container">
+        Hello Divine, this is the dashboard
+      </main>
+    </div>
   );
 };
 
