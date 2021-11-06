@@ -1,5 +1,5 @@
 import React from "react";
-import { LogoTweak } from "./Icons";
+import { ContactIcon, DashboardIcon, LogoTweak, ProfileIcon } from "./Icons";
 
 const Sidebar = () => {
   return (
@@ -10,13 +10,27 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="p-5">
-        <div className="px-5 py-2 bg-indigo-400 rounded-xl">Dashboard</div>
-        <div className="px-5 py-2 rounded-xl">Contacts</div>
+        <div className="px-5 py-2 bg-indigo-400 rounded-xl flex items-center space-x-2">
+          <div className="w-5">
+            <DashboardIcon />
+          </div>
+          <div>Dashboard</div>
+        </div>
+        <div className="px-5 py-2 rounded-xl flex items-center space-x-2">
+          <div className="w-5">
+            <ContactIcon />
+          </div>
+          <div>Contacts</div>
+        </div>
         <div className="px-5 py-2 rounded-xl">Notes</div>
       </div>
       <div className="p-5 absolute bg-indigo-400 bottom-0 w-full rounded-3xl grid grid-cols-2">
         <div className="-mt-10">
-          <div className="w-12 h-12 bg-indigo-900 rounded-full"></div>
+          <div className="w-12 h-12 bg-indigo-900 rounded-full">
+            <div className="w-full h-full flex items-center justify-center text-indigo-500">
+              <ProfileIcon />
+            </div>
+          </div>
           <div className="mt-2">John D.</div>
         </div>
         <div className="my-5 flex justify-end">
