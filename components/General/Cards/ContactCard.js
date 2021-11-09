@@ -2,7 +2,7 @@ import { PhoneIcon, ProfileIcon } from "../Icons";
 
 const ContactCard = () => {
   return (
-    <div className="rounded-3xl p-5 border border-indigo-500 shadow-md w-40">
+    <div className="rounded-3xl p-5 shadow-md w-40">
       <div className="w-full flex justify-center mb-2">
         <div className="w-16 h-16 rounded-full bg-gray-400">
           <div className="w-full h-full flex items-center justify-center text-gray-200">
