@@ -7,7 +7,7 @@ import {
   ProfileIcon,
 } from "./Icons";
 
-const Sidebar = () => {
+const Sidebar = ({ overview, contacts }) => {
   return (
     <div className="w-60 h-full bg-indigo-500 text-white rounded-3xl relative">
       <div className="w-full flex justify-center p-5">
@@ -17,22 +17,53 @@ const Sidebar = () => {
       </div>
       <div className="p-5">
         <Link href="/dashboard" passHref>
-          <a className="px-5 py-2 bg-indigo-400 rounded-xl flex items-center space-x-2">
+          <a
+            className={`px-5 py-2 ${
+              overview ? "bg-indigo-400" : ""
+            } rounded-xl flex items-center space-x-2`}
+          >
             <div className="w-5">
               <DashboardIcon />
             </div>
-            <div>Dashboard</div>
+            <div>Overview</div>
           </a>
         </Link>
         <Link href="/contacts" passHref>
-          <a className="px-5 py-2 rounded-xl flex items-center space-x-2">
+          <a
+            className={`px-5 py-2 ${
+              contacts ? "bg-indigo-400" : ""
+            } rounded-xl flex items-center space-x-2`}
+          >
             <div className="w-5">
               <ContactIcon />
             </div>
             <div>Contacts</div>
           </a>
         </Link>
-        <div className="px-5 py-2 rounded-xl">Notes</div>
+        <Link href="/calendar" passHref>
+          <a className="px-5 py-2 rounded-xl flex items-center space-x-2">
+            <div className="w-5">
+              <DashboardIcon />
+            </div>
+            <div>Calendar</div>
+          </a>
+        </Link>
+        <Link href="/todo" passHref>
+          <a className="px-5 py-2 rounded-xl flex items-center space-x-2">
+            <div className="w-5">
+              <DashboardIcon />
+            </div>
+            <div>Todo</div>
+          </a>
+        </Link>
+        <Link href="/notes" passHref>
+          <a className="px-5 py-2 rounded-xl flex items-center space-x-2">
+            <div className="w-5">
+              <DashboardIcon />
+            </div>
+            <div>Notes</div>
+          </a>
+        </Link>
       </div>
       <div className="p-5 absolute bg-indigo-400 bottom-0 w-full rounded-3xl grid grid-cols-2">
         <div className="-mt-10">

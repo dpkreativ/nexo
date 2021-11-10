@@ -6,7 +6,7 @@ const AllContactsPage = () => {
   return (
     <div className="flex">
       <div className="h-screen p-5 sticky top-0">
-        <Sidebar />
+        <Sidebar contacts />
       </div>
       <main className="w-full relative">
         <div className="mb-10 sticky top-0 p-5 bg-white">

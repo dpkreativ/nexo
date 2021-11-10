@@ -5,7 +5,7 @@ const DashboardPage = () => {
   return (
     <div className="flex">
       <div className="h-screen p-5 sticky top-0">
-        <Sidebar />
+        <Sidebar overview />
       </div>
       <main className="p-5 w-full bg-gray-50">
         <div>
