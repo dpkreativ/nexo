@@ -10,7 +10,7 @@ const AllContactsPage = () => {
       </div>
       <main className="w-full relative">
         <div className="mb-10 sticky top-0 p-5 bg-white flex justify-between items-center">
-          <h1 className="font-bold text-2xl">Contacts</h1>
+          <h1 className="font-bold text-2xl">Contacts 📒</h1>
           <div>
             <form>
               <div className="border border-black rounded-md p-2">
@@ -28,88 +28,61 @@ const AllContactsPage = () => {
         <section className="p-5">
           <div className="grid lg:grid-cols-6 gap-6">
             <div>
-              <ContactCard />
+              <ContactCard firstName="Drake" lastName="Aubrey" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Jet" lastName="Lee" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Lois" lastName="Lane" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Giannis" lastName="Antetokounmpo" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Divine" lastName="Orji" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="David" lastName="Orji" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Kate" lastName="Adaobi" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Sochika" lastName="Nokson" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Ngozi" lastName="Erondu" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Triumph" lastName="Ugoji" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Leah" lastName="Ibeka" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Nneoma" lastName="Orji" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Ezinne" lastName="Orji" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Joseph" lastName="Ezebuiro" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Jill" lastName="Prince" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Uche" lastName="Nwaubani" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Benedict" lastName="Obiadi" />
             </div>
             <div>
-              <ContactCard />
+              <ContactCard firstName="Precious" lastName="Ezinne" />
             </div>
             <div>
-              <ContactCard />
-            </div>
-            <div>
-              <ContactCard />
-            </div>
-            <div>
-              <ContactCard />
-            </div>
-            <div>
-              <ContactCard />
-            </div>
-            <div>
-              <ContactCard />
-            </div>
-            <div>
-              <ContactCard />
-            </div>
-            <div>
-              <ContactCard />
-            </div>
-            <div>
-              <ContactCard />
-            </div>
-            <div>
-              <ContactCard />
-            </div>
-            <div>
-              <ContactCard />
+              <ContactCard firstName="Johnson" lastName="Okpan" />
             </div>
             <div>
               <ContactCard />
