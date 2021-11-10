@@ -9,10 +9,23 @@ const AllContactsPage = () => {
         <Sidebar contacts />
       </div>
       <main className="w-full relative">
-        <div className="mb-10 sticky top-0 p-5 bg-white">
-          <h1 className="font-bold text-2xl text-indigo-500">2 Contacts</h1>
+        <div className="mb-10 sticky top-0 p-5 bg-white flex justify-between items-center">
+          <h1 className="font-bold text-2xl">Contacts</h1>
+          <div>
+            <form>
+              <div className="border border-black rounded-md p-2">
+                <input
+                  type="search"
+                  name="searchContact"
+                  id="searchContact"
+                  placeholder="Search contact..."
+                  className="outline-none"
+                />
+              </div>
+            </form>
+          </div>
         </div>
-        <div className="p-5">
+        <section className="p-5">
           <div className="grid lg:grid-cols-6 gap-6">
             <div>
               <ContactCard />
@@ -117,7 +130,7 @@ const AllContactsPage = () => {
               <ContactCard />
             </div>
           </div>
-        </div>
+        </section>
       </main>
     </div>
   );
