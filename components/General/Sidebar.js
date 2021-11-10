@@ -19,8 +19,8 @@ const Sidebar = ({ overview, contacts }) => {
         <Link href="/dashboard" passHref>
           <a
             className={`px-5 py-2 ${
-              overview ? "bg-indigo-400 shadow-md" : ""
-            } rounded-xl flex items-center space-x-2`}
+              overview ? "bg-indigo-900 shadow-md hover:bg-indigo-900" : ""
+            } rounded-xl flex items-center space-x-2 hover:bg-indigo-400`}
           >
             <div className="w-5">
               <DashboardIcon />
@@ -31,8 +31,8 @@ const Sidebar = ({ overview, contacts }) => {
         <Link href="/contacts" passHref>
           <a
             className={`px-5 py-2 ${
-              contacts ? "bg-indigo-400 shadow-md" : ""
-            } rounded-xl flex items-center space-x-2`}
+              contacts ? "bg-indigo-900 shadow-md hover:bg-indigo-900" : ""
+            } rounded-xl flex items-center space-x-2 hover:bg-indigo-400`}
           >
             <div className="w-5">
               <ContactIcon />
@@ -67,15 +67,15 @@ const Sidebar = ({ overview, contacts }) => {
       </div>
       <div className="p-5 absolute bg-indigo-400 bottom-0 w-full rounded-3xl grid grid-cols-2">
         <div className="-mt-10">
-          <div className="w-12 h-12 bg-indigo-900 rounded-full">
+          <div className="w-12 h-12 bg-indigo-900 rounded-full shadow-md">
             <div className="w-full h-full flex items-center justify-center text-indigo-500">
               <ProfileIcon />
             </div>
           </div>
-          <div className="mt-2">John D.</div>
+          <div className="mt-2 font-semibold">John D.</div>
         </div>
         <div className="my-5 flex justify-end">
-          <div className="w-12 h-12 rounded-full bg-indigo-900">
+          <div className="w-12 h-12 rounded-full bg-indigo-900 shadow-md">
             <div className="w-full h-full flex items-center justify-center text-indigo-500">
               <ExitIcon />
             </div>
