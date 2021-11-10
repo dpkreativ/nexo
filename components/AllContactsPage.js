@@ -13,20 +13,20 @@ const AllContactsPage = () => {
           <h1 className="font-bold text-2xl">Contacts 📒</h1>
           <div>
             <form>
-              <div className="border border-black rounded-md p-2">
+              <div className="shadow-lg rounded-xl py-2 px-4 bg-white">
                 <input
                   type="search"
                   name="searchContact"
                   id="searchContact"
                   placeholder="Search contact..."
-                  className="outline-none"
+                  className="outline-none w-80"
                 />
               </div>
             </form>
           </div>
         </div>
         <section className="p-5 bg-gray-50">
-          <div className="grid lg:grid-cols-6 gap-6">
+          <div className="grid lg:grid-cols-6 gap-6 justify-items-center items-center">
             <div>
               <ContactCard firstName="Drake" lastName="Aubrey" />
             </div>
