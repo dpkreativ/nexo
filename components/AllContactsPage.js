@@ -5,11 +5,11 @@ import Sidebar from "./General/Sidebar";
 const AllContactsPage = () => {
   return (
     <div className="flex">
-      <div className="h-screen p-5 sticky top-0">
+      <div className="h-screen p-5 sticky top-0 bg-gray-50">
         <Sidebar contacts />
       </div>
       <main className="w-full relative">
-        <div className="mb-10 sticky top-0 p-5 bg-white flex justify-between items-center">
+        <div className="sticky top-0 p-5 bg-gray-50 flex justify-between items-center">
           <h1 className="font-bold text-2xl">Contacts 📒</h1>
           <div>
             <form>
@@ -25,7 +25,7 @@ const AllContactsPage = () => {
             </form>
           </div>
         </div>
-        <section className="p-5">
+        <section className="p-5 bg-gray-50">
           <div className="grid lg:grid-cols-6 gap-6">
             <div>
               <ContactCard firstName="Drake" lastName="Aubrey" />

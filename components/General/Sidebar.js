@@ -9,7 +9,7 @@ import {
 
 const Sidebar = ({ overview, contacts }) => {
   return (
-    <div className="w-60 h-full bg-indigo-500 text-white rounded-3xl relative">
+    <div className="w-60 h-full bg-indigo-500 shadow-xl text-white rounded-3xl relative">
       <div className="w-full flex justify-center p-5">
         <div className="w-20 h-5">
           <LogoTweak />
@@ -19,7 +19,7 @@ const Sidebar = ({ overview, contacts }) => {
         <Link href="/dashboard" passHref>
           <a
             className={`px-5 py-2 ${
-              overview ? "bg-indigo-400" : ""
+              overview ? "bg-indigo-400 shadow-md" : ""
             } rounded-xl flex items-center space-x-2`}
           >
             <div className="w-5">
@@ -31,7 +31,7 @@ const Sidebar = ({ overview, contacts }) => {
         <Link href="/contacts" passHref>
           <a
             className={`px-5 py-2 ${
-              contacts ? "bg-indigo-400" : ""
+              contacts ? "bg-indigo-400 shadow-md" : ""
             } rounded-xl flex items-center space-x-2`}
           >
             <div className="w-5">
